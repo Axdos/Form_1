@@ -1,0 +1,23 @@
+/* font-family: Oswald, sans-serif; */
+* { margin: 0px; padding: 0px; }
+header {background: rgb(248 190 75);border-bottom: 5px solid black;}
+header nav { width: 59%; margin: auto; }
+header nav ul { display: flex; justify-content: space-between; list-style: none; align-items: center; }
+header nav ul li { }
+header nav ul li a { color: rgb(255, 255, 255); text-decoration: none; font-size: 17px; font-family: Oswald, sans-serif; }
+header nav ul li a img { height: 70px; }
+.content { display: flex; }
+.featured_image {background: rgb(248, 190, 75);text-align: center;width: 40%;height: 89vh;border-right: 5px solid black;}
+.featured_image img { width: 80%; margin: 23vh auto; }
+.form_content {background: #FFAA00;width: 60%;display: flex;justify-content: center;align-items: center;}
+.contact { width: 45%; }
+.contact h1 {color: rgb(255, 255, 255);margin-bottom: 25px;font-family: Oswald, sans-serif;font-size: 33px;font-weight: 400;}
+.contact p { font-size: 18px; color: rgb(255, 255, 255); margin-bottom: 40px; font-weight: 300; font-family: Oswald, sans-serif; }
+.contact h5 {color: rgb(255, 255, 255);margin-bottom: 8px;font-size: 24px;font-family: Oswald, sans-serif;font-weight: 300;}
+.contact form { }
+.contact form input {margin-bottom: 10px;width: 75%;padding: 17px 0px 7px 7px;border: none;font-family: Oswald, sans-serif;font-weight: 300;}
+.contact form input[type="submit"] {width: auto;padding: 10px 45px;text-transform: uppercase;font-family: Oswald, sans-serif;color: rgb(255, 188, 64);font-weight: 400;}
+.contact ul { display: flex; list-style: none; justify-content: space-between; align-items: center; }
+.contact ul li { margin: 37px 36px 0px 0px; }
+.contact ul li h3 { color: rgb(255, 255, 255); font-weight: 200; font-family: Oswald, sans-serif; font-size: 10px; }
+.contact ul li a { color: rgb(255, 255, 255); font-weight: 400; text-decoration: none; font-family: Oswald, sans-serif; font-size: 15px; }
